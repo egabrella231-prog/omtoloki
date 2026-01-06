@@ -1,21 +1,28 @@
 {
-  "name": "egabrella231",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "omtoloki",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@neondatabase/serverless": "^1.0.2",
-    "dotenv": "^17.2.3",
-    "drizzle-orm": "^0.45.1"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "@supabase/supabase-js": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.31.8",
-    "tsx": "^4.21.0"
-  },
-  "description": ""
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
 }
