@@ -15,7 +15,8 @@
     "lucide-react": "latest",
     "@supabase/supabase-js": "latest",
     "clsx": "latest",
-    "tailwind-merge": "latest"
+    "tailwind-merge": "latest",
+    "dotenv": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -23,6 +24,7 @@
     "@types/react-dom": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "drizzle-kit": "latest"
   }
 }
